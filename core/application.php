@@ -17,6 +17,7 @@ class application
     }
     public function run(){
         $this->router->resolve();
+        //test
 
 
     }
