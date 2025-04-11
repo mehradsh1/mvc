@@ -1,0 +1,9 @@
+{
+    "name": "mehrad/newfolder2",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {}
+}
