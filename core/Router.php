@@ -39,6 +39,10 @@ class Router{
 
     }
     public function  renderView($view){
+        $layoutcontent =$this->layoutcontent();
         include_once __DIR__."/../views/$view.php'";
+    }
+    protected function layoutcontent(){
+        include_once
     }
 }
