@@ -4,8 +4,6 @@
     <list default="true" id="3bc69f11-6997-4600-8b96-38c73de4aee5" name="Changes" comment="main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/application.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/application.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,7 @@
       <workItem from="1744372311816" duration="1422000" />
       <workItem from="1744374663016" duration="4490000" />
       <workItem from="1744473798465" duration="2635000" />
-      <workItem from="1744551278023" duration="1536000" />
+      <workItem from="1744551278023" duration="2203000" />
     </task>
     <task id="LOCAL-00001" summary="all">
       <created>1744376582511</created>
@@ -110,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1744476461432</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="main">
+      <created>1744552973207</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744552973207</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

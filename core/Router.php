@@ -40,9 +40,20 @@ class Router{
     }
     public function  renderView($view){
         $layoutcontent =$this->layoutcontent();
-        include_once application::$ROOT_DIR."/views/$view.php'";
+        $viewcontent= $this->renderOnlyview($view);
+        return str_replace('{{content}}',$viewcontent, $layoutcontent);
+
+
     }
     protected function layoutcontent(){
-        include_once application::$ROOT_DIR."/views/layouts/main.php'";
+        ob_start();
+        include_once application::$ROOT_DIR."/views/layouts/main.php";
+        return ob_get_clean();
+    }
+    protected function renderOnlyview($view){
+        ob_start();
+        include_once application::$ROOT_DIR."/views/$view.php";
+        return ob_get_clean();
+
     }
 }
