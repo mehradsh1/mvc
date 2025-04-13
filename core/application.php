@@ -10,10 +10,12 @@ class application
     public static string $ROOT_DIR;
     public Router $router;
     public Request $request;
+    public Response $response;
     public function __construct($rootPath)
     {
-        Self:: $ROOT_DIR = $rootPath;
+        self:: $ROOT_DIR = $rootPath;
         $this->request = new Request();
+        $this->response = new Response();
         $this->router = new Router($this->request);
 
     }
