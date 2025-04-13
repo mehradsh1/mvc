@@ -31,6 +31,29 @@
 </nav>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
+<form action = ""method="post">
+    <div class="mb-3">
+        <label>">subject</label>
+        <input type="text" name"subject" class="form-control" >
+        <
+    </div>
+    <div class="mb-3">
+        <label>">email</label>
+        <input type="text" name"email" class="form-control" >
+        <
+    </div>
+    <div class="mb-3">
+        <label>">body</label>
+        <textarea type="text" name"body" class="form-control"> </textarea>
+    </div>
+    <div class="mb-3">
+        <label >Password</label>
+        <input type="password" class="form-control" >
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
 </html>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>

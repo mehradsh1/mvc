@@ -24,13 +24,19 @@ class Router{
 
         $this->routes['get'][$path] = $callback;  
     }
+    public function post($path , $callback)
+    {
+
+
+        $this->routes['post'][$path] = $callback;
+    }
     public function resolve(){
        $path = $this->request->getPath();
         $method = $this->request->getMethod();
         $callback = $this->routes[$method][$path] ?? false;
         if ($callback === false){
           $this->response->setstatuscode(404);
-            return "not found";
+            return $this->renderView(_404);
 
         }
         if (is_string($callback)){
@@ -45,6 +51,15 @@ class Router{
         $layoutcontent =$this->layoutcontent();
         $viewcontent= $this->renderOnlyview($view);
         return str_replace('{{content}}',$viewcontent, $layoutcontent);
+
+
+
+    }
+    public function  rendercontent($viewcontent){
+        $layoutcontent =$this->layoutcontent();
+        $viewcontent= $this->renderOnlyview($viewcontent);
+        return str_replace('{{content}}',$viewcontent, $layoutcontent);
+
 
 
     }
