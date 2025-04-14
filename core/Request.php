@@ -14,9 +14,23 @@ class Request
 
 
     }
-    public function getMethod() {
+    public function getMethod(): string
+    {
         return strtolower($_SERVER['REQUEST_METHOD']);
 
 
+    }
+    public function  getbody(){
+        $body = [];
+        if ($this->getMethod()==='get'){
+            foreach ($_GET AS $key=> $value){
+                $body [$key]= filter_input (INPUT_GET,$key, FILTER_SANITIZE_SPECIAL_CHARS);
+            }
+        }
+        if ($this->getMethod()==='posr'){
+            foreach ($_POST AS $key=> $value){
+                $body [$key]= filter_input (INPUT_POST,$key, FILTER_SANITIZE_SPECIAL_CHARS);
+            }
+        }
     }
 }

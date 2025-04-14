@@ -2,15 +2,26 @@
 
 namespace app\controllers;
 
-class siteController
+use app\core\application;
+use app\core\controller;
+
+class siteController extends controller
 {
-    public function handlecontact()
+    public function home()
     {
-        return ' handlingsubmitted data';
+        $params = [
+            'name'=> "mehrad"
+        ];
+        return $this->render('home',$params);
     }
     public function contact()
     {
-        return ' handlingsubmitted data';
+        return $this->render('contact');
+    }
+    public function handlingcontact()
+    {
+        $body= application::$app->request->getbody();
+        return ' handling submitted data';
     }
 
 

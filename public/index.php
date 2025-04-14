@@ -7,9 +7,9 @@ use app\controllers\siteController;
 
 $app= new application(dirname(__DIR__));
 
-$app->router->get('/', 'home');
-$app->router->get('/contact', 'contact');
-$app->router->post('/contact',[siteController::class, 'handlecontact']);
+$app->router->get('/', [siteController::class , 'home']);
+$app->router->get('/contact', [siteController::class ,'contact']);
+$app->router->post('/contact',[siteController::class , 'handlecontact']);
 
 
 $app->run();
