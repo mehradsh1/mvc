@@ -21,7 +21,7 @@ class siteController extends controller
     }
     public function handleContact(Request $request)
     {
-        $body= Application::$app->request->getbody();
+        $body= $request->getbody();
         return ' handling submitted data';
     }
 

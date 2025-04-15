@@ -38,7 +38,7 @@ class Router{
         $callback = $this->routes[$method][$path] ?? false;
         if ($callback === false){
           $this->response->setstatuscode(404);
-            return $this->renderView(404);
+            return $this->renderView(_404);
 
         }
         if (is_string($callback)){
@@ -49,7 +49,7 @@ class Router{
         if(is_array($callback)){
             $callback[0] = new $callback[0]();
         }
-        return call_user_func($callback);
+        return call_user_func($callback, $this->request);
 
     }
     public function  renderView($view,$params= []){
