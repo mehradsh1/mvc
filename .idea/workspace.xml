@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bc69f11-6997-4600-8b96-38c73de4aee5" name="Changes" comment="fix 'bug dorost kardam dar code array body ro return kardam'">
-      <change afterPath="$PROJECT_DIR$/controllers/authcontroller.php" afterDir="false" />
+    <list default="true" id="3bc69f11-6997-4600-8b96-38c73de4aee5" name="Changes" comment="add'ye class auth baraye tarif cardan login va register va add kardan method be index.php'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/siteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/siteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/authcontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/authcontroller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Request.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
       <workItem from="1744374663016" duration="4490000" />
       <workItem from="1744473798465" duration="2635000" />
       <workItem from="1744551278023" duration="12434000" />
-      <workItem from="1744737306730" duration="2396000" />
+      <workItem from="1744737306730" duration="2995000" />
     </task>
     <task id="LOCAL-00001" summary="all">
       <created>1744376582511</created>
@@ -162,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1744738638472</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add'ye class auth baraye tarif cardan login va register va add kardan method be index.php'">
+      <created>1744739918477</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1744739918477</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +189,7 @@
     <MESSAGE value="all" />
     <MESSAGE value="main" />
     <MESSAGE value="fix 'bug dorost kardam dar code array body ro return kardam'" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix 'bug dorost kardam dar code array body ro return kardam'" />
+    <MESSAGE value="add'ye class auth baraye tarif cardan login va register va add kardan method be index.php'" />
+    <option name="LAST_COMMIT_MESSAGE" value="add'ye class auth baraye tarif cardan login va register va add kardan method be index.php'" />
   </component>
 </project>

@@ -33,8 +33,7 @@ class Router{
         $this->routes['post'][$path] = $callback;
     }
     public function resolve(){
-       $path = $this->request->getPath();
-        $method = $this->request->getMethod();
+       $path = $this->request->getPath();        $method = $this->request->Method();
         $callback = $this->routes[$method][$path] ?? false;
         if ($callback === false){
           $this->response->setstatuscode(404);
