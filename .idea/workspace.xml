@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bc69f11-6997-4600-8b96-38c73de4aee5" name="Changes" comment="add'ye class auth baraye tarif cardan login va register va add kardan method be index.php'">
+    <list default="true" id="3bc69f11-6997-4600-8b96-38c73de4aee5" name="Changes" comment="add' refactor kardan getmethod be method va tarif 2 ta tabe pupilv baraye get va post kardan register'">
+      <change afterPath="$PROJECT_DIR$/views/layouts/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/authcontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/authcontroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Request.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/application.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,19 +39,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Users/Mehrad/Desktop/mvc course&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Users/Mehrad/Desktop/mvc course/views/layouts",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\Mehrad\Desktop\mvc course\views\layouts" />
+      <recent name="E:\Users\Mehrad\Desktop\mvc course\views" />
       <recent name="E:\Users\Mehrad\Desktop\mvc course" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -75,7 +83,7 @@
       <workItem from="1744374663016" duration="4490000" />
       <workItem from="1744473798465" duration="2635000" />
       <workItem from="1744551278023" duration="12434000" />
-      <workItem from="1744737306730" duration="2995000" />
+      <workItem from="1744737306730" duration="7389000" />
     </task>
     <task id="LOCAL-00001" summary="all">
       <created>1744376582511</created>
@@ -168,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1744739918477</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add' refactor kardan getmethod be method va tarif 2 ta tabe pupilv baraye get va post kardan register'">
+      <created>1744740581664</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1744740581664</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +205,7 @@
     <MESSAGE value="main" />
     <MESSAGE value="fix 'bug dorost kardam dar code array body ro return kardam'" />
     <MESSAGE value="add'ye class auth baraye tarif cardan login va register va add kardan method be index.php'" />
-    <option name="LAST_COMMIT_MESSAGE" value="add'ye class auth baraye tarif cardan login va register va add kardan method be index.php'" />
+    <MESSAGE value="add' refactor kardan getmethod be method va tarif 2 ta tabe pupilv baraye get va post kardan register'" />
+    <option name="LAST_COMMIT_MESSAGE" value="add' refactor kardan getmethod be method va tarif 2 ta tabe pupilv baraye get va post kardan register'" />
   </component>
 </project>
