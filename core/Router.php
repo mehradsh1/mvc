@@ -38,7 +38,7 @@ class Router{
         $callback = $this->routes[$method][$path] ?? false;
         if ($callback === false){
           $this->response->setstatuscode(404);
-            return $this->renderView(_404);
+            return $this->renderView(404);
 
         }
         if (is_string($callback)){
@@ -60,9 +60,9 @@ class Router{
 
 
     }
-    public function  rendercontent($viewcontent){
+    public function  rendercontent($viewcontent,$params){
         $layoutcontent =$this->layoutcontent();
-        $viewcontent= $this->renderOnlyview($viewcontent);
+        $viewcontent= $this->renderOnlyview($viewcontent,$params);
         return str_replace('{{content}}',$viewcontent, $layoutcontent);
 
 

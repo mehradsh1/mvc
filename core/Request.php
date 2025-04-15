@@ -21,16 +21,17 @@ class Request
 
     }
     public function  getbody(){
-        $body = [];
+         $body = [];
         if ($this->getMethod()==='get'){
             foreach ($_GET AS $key=> $value){
                 $body [$key]= filter_input (INPUT_GET,$key, FILTER_SANITIZE_SPECIAL_CHARS);
             }
         }
-        if ($this->getMethod()==='posr'){
+        if ($this->getMethod()==='post'){
             foreach ($_POST AS $key=> $value){
                 $body [$key]= filter_input (INPUT_POST,$key, FILTER_SANITIZE_SPECIAL_CHARS);
             }
         }
+        return $body;
     }
 }
